@@ -1,0 +1,113 @@
+1. Navigating the File System
+pwd
+
+Shows the current directory you are in.
+
+Example:
+
+pwd
+
+Output example:
+
+/home/vboxuser
+ls
+
+Lists the files and folders in the current directory.
+
+ls
+
+Example output:
+
+caesar.py
+englishcipher.py
+
+Useful options:
+
+ls -l
+
+Shows detailed information such as permissions and file sizes.
+
+ls -a
+
+Shows hidden files (for example .git).
+
+cd
+
+Changes the current directory.
+
+Example:
+
+cd demo
+
+Move up one directory:
+
+cd ..
+
+Return to the home directory:
+
+cd ~
+
+Go to the root directory:
+
+cd /
+2. Creating and Managing Files
+touch
+
+Creates an empty file.
+
+Example:
+
+touch file.txt
+mkdir
+
+Creates a new directory.
+
+Example:
+
+mkdir demo
+rm
+
+Deletes a file.
+
+Example:
+
+rm file.txt
+
+Delete a directory:
+
+rm -r demo
+3. Viewing File Contents
+cat
+
+Displays the contents of a file.
+
+Example:
+
+cat README.md
+nano
+
+A simple text editor for editing files in the terminal.
+
+Example:
+
+nano example.py
+4. Running Python Programs
+
+Run a Python program using:
+
+python3 filename.py
+
+Example:
+
+python3 caesar.py
+5. Basic Git Commands
+Clone a repository
+git clone https://github.com/username/repository.git
+Check repository status
+git status
+Add files to Git
+git add filename
+Commit changes
+git commit -m "Add new file"
+Push to GitHub
+git push
